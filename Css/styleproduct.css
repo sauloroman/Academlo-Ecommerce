@@ -2,24 +2,17 @@
     width: 100%;
     max-width: 1400px;
     margin: 0rem auto;
-    background-color: aqua;
 }
 .width-80p{
     width: 90%;
     margin: 0rem auto;
-    background-color: blueviolet;
 }
 .caja-conte{
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
-    background-color: violet;
-}
-.data-product{
-    background-color: tomato;
 }
 .volver-product{
-    background-color: yellow;
     display: flex;
 }
 .volver-product i{
@@ -36,9 +29,6 @@
     width: 100%;
     margin: 0.5rem auto;
 }
-.tallas{
-    background-color: violet;
-}
 .tallas button{
     margin: 0rem 1rem 1rem 0rem;
     padding: 0.5rem;
@@ -46,7 +36,6 @@
     background-color: white;
 }
 .guia-tallas{
-    background-color: yellow;
     display: flex;
     width: 97%;
     justify-content: end;
@@ -55,11 +44,10 @@
     margin: auto 1rem;
 }
 .guia-tallas p{
-    margin: auto 0.5rem;
+    margin: 0.5rem 0.5rem;
 }
 .content-añadir-carrito{
     margin: 2rem auto;
-    background-color: coral;
     display: flex;
 }
 .añadir-carrito{
@@ -77,4 +65,51 @@
     background-image: url(../imagenes/fondo-rosado2.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+.product-recomendados{
+    display: flex;
+}
+.card-producto{
+    background-color: white;
+    width: 15rem;
+    margin-right: 2rem;
+}
+.title-productos-ralacionados{
+    padding-bottom: 1rem;
+}
+.img-producto{
+    width: 90%;
+    margin: 0rem auto;
+}
+.img-producto img{
+    width: 100%;
+    margin: 0rem auto;
+}
+.info-producto-card{
+    width: 90%;
+    margin: 0rem auto;
+}
+.info-producto-card h5{
+    margin: 0.8rem 0rem 0.5rem 0rem;
+}
+.colors-productos{
+    display: flex;
+}
+.color1{
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: gray;
+    border-radius: 100%;
+    margin-right: 0.5rem;
+}
+.color2{
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #eb4a5a;
+    border-radius: 100%;
+    margin-right: 0.5rem;
+}
+.precio-productos{
+    margin: 1rem 0rem 1rem 0rem;
+    text-align: end;
 }
