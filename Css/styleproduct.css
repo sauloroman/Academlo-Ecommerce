@@ -113,3 +113,36 @@
     margin: 1rem 0rem 1rem 0rem;
     text-align: end;
 }
+.email-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem auto;
+    margin-bottom: 5rem;
+    width: 60%;
+}
+.email-contacto h3{
+    margin: 2rem auto;
+}
+.label-contacto{
+    display: flex;
+}
+.email-contacto label{
+    display: flex;
+}
+.email-contacto label p{
+    margin: 0rem auto;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+.label-contacto input{
+    border-radius: 0rem;
+    border: none;
+    background-color: #F6F6F6;
+    font-size: 1.2rem;
+}
+.label-contacto button{
+    padding: 1rem 5rem 1rem 5rem;
+    border-radius: 0rem;
+    font-size: 1.2rem;
+}
