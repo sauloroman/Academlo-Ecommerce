@@ -1,0 +1,80 @@
+.width-100{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0rem auto;
+    background-color: aqua;
+}
+.width-80p{
+    width: 90%;
+    margin: 0rem auto;
+    background-color: blueviolet;
+}
+.caja-conte{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: violet;
+}
+.data-product{
+    background-color: tomato;
+}
+.volver-product{
+    background-color: yellow;
+    display: flex;
+}
+.volver-product i{
+    margin: auto 1rem;
+}
+.volver-product p{
+    margin: auto 0.5rem;
+}
+.contec-img-peque{
+    border: solid gray 2px;
+    margin-left: 1rem;
+}
+.img-peque{
+    width: 100%;
+    margin: 0.5rem auto;
+}
+.tallas{
+    background-color: violet;
+}
+.tallas button{
+    margin: 0rem 1rem 1rem 0rem;
+    padding: 0.5rem;
+    border: solid 1px black;
+    background-color: white;
+}
+.guia-tallas{
+    background-color: yellow;
+    display: flex;
+    width: 97%;
+    justify-content: end;
+}
+.guia-tallas i{
+    margin: auto 1rem;
+}
+.guia-tallas p{
+    margin: auto 0.5rem;
+}
+.content-añadir-carrito{
+    margin: 2rem auto;
+    background-color: coral;
+    display: flex;
+}
+.añadir-carrito{
+    margin: 0rem auto;
+    width: 50%;
+    padding: 0.7rem 0rem;
+    border: none;
+    background-color: #eb4a5a;
+    color: white;
+}
+.fondo-rosa{
+    width: 90%;
+    background-color: white;
+    margin: 0rem auto;
+    background-image: url(../imagenes/fondo-rosado2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
