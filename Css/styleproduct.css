@@ -88,6 +88,7 @@
 .info-producto-card{
     width: 90%;
     margin: 0rem auto;
+    background-color: #F9FAFC;
 }
 .info-producto-card h5{
     margin: 0.8rem 0rem 0.5rem 0rem;

@@ -56,4 +56,12 @@
 /* contiene las opciones para filtrar los productos  */
 .containerFilter{}
 /* contiene todos los productos que se muestran en el home */
-.containerShopProduct{}
+.containerShopProduct{
+   
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#card-producto{
+    width: 150px;
+    margin-right: 5px;
+}
