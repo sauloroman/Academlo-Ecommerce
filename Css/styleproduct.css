@@ -110,9 +110,22 @@
     border-radius: 100%;
     margin-right: 0.5rem;
 }
-.precio-productos{
-    margin: 1rem 0rem 1rem 0rem;
-    text-align: end;
+.precio-y-icono-bag{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.precio-y-icono-bag a{
+    display: inline-block;
+}
+.precio-y-icono-bag a i{
+    display: inline-block;
+    font-size: 1.8rem;
+    color: #453c3c;
+}
+.precio-y-icono-bag a i:hover{
+    color: #eb4a5a;
 }
 .email-contacto{
     display: flex;
